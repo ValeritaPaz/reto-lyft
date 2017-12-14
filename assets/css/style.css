@@ -1,0 +1,103 @@
+body {
+	margin: 0 auto;
+	padding: 0 auto;
+}
+.logo {
+  background-image: url(../images/logo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    width:100%;
+}
+.loading {
+  width: 20%;
+  margin-top: 100%;
+}
+.sign-up {
+  background-image: url(../images/city.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    width:100%;
+}
+.white-logo {
+  margin-top: 5%;
+}
+.lyft-logo {
+  width: 15%;
+}
+.central-logo, .buttons {
+  margin-top: 20%;
+}
+.btn-1 {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  margin: 1%;
+}
+.btn-1:hover {
+  background-color: #ff0088;
+  color: #fff;
+}
+.logo-center {
+  width: 100%;
+}
+.input-phone {
+  height: 46px;
+}
+.prev-btn, .prev-btn2, .prev-btn3 {
+  border-radius: 50%;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+  margin-top: 5%;
+}
+.btn-next, .btn-next2, .btn-next3 {
+  width: 100%;
+  border-radius: 0;
+  background-color: #ff0088;
+  padding:1% 0;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 5%;
+}
+.verify {
+  margin-top: 5%;
+}
+.code-btn {
+  color: #000;
+  margin-left: 35%;
+}
+.number-validation {
+  display: inline-block;
+  width: 10%;
+  border: none;
+  border-bottom: 2px solid #ff0088;
+  margin: 0 1%;
+}
+#first-name, #last-name {
+  width: 50%;
+  display: inline-block;;
+}
+.check {
+  background-image: url(../images/logo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    width:100%;
+}
+.check-img {
+  width: 18%;
+  margin-top: 100%;
+}
