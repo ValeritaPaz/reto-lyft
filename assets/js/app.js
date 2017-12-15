@@ -45,4 +45,21 @@ $(document).ready(function(){
     $(".form-signup").hide();
    });
 
+   $(".input-phone, .number-validation").keyup(function (){
+    this.value = (this.value + "").replace(/[^0-9]/g, "");
+  });
+
+   $(".input-phone").click(function () {
+    var phoneNumber = $(".input-phone").val();
+    $(".input-phone").val("");
+    var phoneLength = phoneNumber.length;
+    if (phoneLength === 10) {
+      $(".btn-next").attr("disabled", false);
+      alert("Tu código: LAB-551");
+      return false;
+      } else {
+        $(".btn-next").attr("disabled", true);
+      };
+    });
+
 });
